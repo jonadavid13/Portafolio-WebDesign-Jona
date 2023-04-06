@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Cabin", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+main .index-container {
+  background-color: rgb(36, 63, 182);
+  color: white;
+}
+main .index-container .section-title {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+main .portafolio-container .cards-container {
+  padding: 0;
+}
+main .portafolio-container .cards-container .card {
+  margin: 15px;
+}
+main .portafolio-container .cards-container .card .card-title {
+  margin: 0;
+}
+main .portafolio-container .cards-container .card .card-content {
+  padding: 15px;
+  width: 500px;
+}
+main .portafolio-container .cards-container .card .card-content .card-img {
+  width: 100%;
+}
+main .portafolio-container .cards-container .card .card-content .card-text {
+  margin: 20px 0;
+}/*# sourceMappingURL=index.css.map */

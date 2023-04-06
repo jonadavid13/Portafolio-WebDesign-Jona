@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+// Variables
+$main-color: rgb(36, 63, 182);
+$secondary-color: rgb(7, 15, 51);
+
+body {
+    font-family: 'Cabin', 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+main {
+    .index-container {
+        background-color: $main-color;
+        color: white;
+
+        .section-title {
+            margin-top: 120px;
+            margin-bottom: 120px;
+        }
+    }
+
+    .portafolio-container {
+        .cards-container {
+            padding: 0;
+            .card {
+                margin: 15px;
+                .card-title {
+                    margin: 0;
+                }
+
+                .card-content {
+                    padding: 15px;
+                    width: 500px;
+
+                    .card-img {
+                        width: 100%;
+                    }
+
+                    .card-text {
+                        margin: 20px 0;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
