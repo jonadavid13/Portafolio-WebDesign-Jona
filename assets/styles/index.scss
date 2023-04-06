@@ -50,3 +50,49 @@ main {
     }
 }
 
+footer {
+    background-color: $secondary-color;
+    color: white;
+    .bottom-footer {
+        justify-content: space-between;
+        .list-unstyled {
+            .link-body-emphasis {
+                padding: 0 5px;
+                svg {
+                    width: 25px;
+                    color: rgb(255, 255, 255);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        .bottom-footer {
+            text-align: center;
+            align-items: center;
+            flex-direction: column-reverse;
+
+            .list-unstyled {
+                margin: 10px 0 30px;
+            }
+        }
+    }
+}
+@media (max-width: 592px) {
+
+    main {
+        .portafolio-container {
+            .cards-container {
+                .card {
+                    margin: 0;
+                    margin-bottom: 25px;
+                    .card-content {
+                        width: 90vw;
+                    }
+                }
+            }
+        }
+    }
+}

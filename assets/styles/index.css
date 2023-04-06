@@ -34,4 +34,39 @@ main .portafolio-container .cards-container .card .card-content .card-img {
 }
 main .portafolio-container .cards-container .card .card-content .card-text {
   margin: 20px 0;
+}
+
+footer {
+  background-color: rgb(7, 15, 51);
+  color: white;
+}
+footer .bottom-footer {
+  justify-content: space-between;
+}
+footer .bottom-footer .list-unstyled .link-body-emphasis {
+  padding: 0 5px;
+}
+footer .bottom-footer .list-unstyled .link-body-emphasis svg {
+  width: 25px;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 768px) {
+  .footer .bottom-footer {
+    text-align: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .footer .bottom-footer .list-unstyled {
+    margin: 10px 0 30px;
+  }
+}
+@media (max-width: 592px) {
+  main .portafolio-container .cards-container .card {
+    margin: 0;
+    margin-bottom: 25px;
+  }
+  main .portafolio-container .cards-container .card .card-content {
+    width: 90vw;
+  }
 }/*# sourceMappingURL=index.css.map */
