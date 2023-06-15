@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+@font-face {
+  font-family: "GothamBook";
+  src: url("GothamBook.ttf");
+}
 * {
   box-sizing: border-box;
   margin: 0;
