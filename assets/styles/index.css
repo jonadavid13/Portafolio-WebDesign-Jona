@@ -18,14 +18,19 @@ main .index-container {
   color: white;
 }
 main .index-container .section-title {
-  margin-top: 120px;
-  margin-bottom: 120px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+main .portafolio-container .section-title {
+  margin-top: 20px;
+  margin-bottom: 12px;
 }
 main .portafolio-container .cards-container {
   padding: 0;
 }
 main .portafolio-container .cards-container .card {
   margin: 15px;
+  max-width: 502px;
 }
 main .portafolio-container .cards-container .card .card-title {
   margin: 0;
@@ -39,6 +44,13 @@ main .portafolio-container .cards-container .card .card-content .card-img {
 }
 main .portafolio-container .cards-container .card .card-content .card-text {
   margin: 20px 0;
+}
+main .portafolio-container .cards-container .card-prod .card-title {
+  padding: 10px 15px;
+}
+main .portafolio-container .cards-container .card-prod .card-title .title-md {
+  font-size: 20px;
+  line-height: 26px;
 }
 
 footer {

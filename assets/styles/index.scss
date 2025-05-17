@@ -25,17 +25,25 @@ main {
         color: white;
 
         .section-title {
-            margin-top: 120px;
-            margin-bottom: 120px;
+            margin-top: 100px;
+            margin-bottom: 100px;
 
         }
     }
 
     .portafolio-container {
+        .section-title {
+            margin-top: 20px;
+            margin-bottom: 12px;
+        }
+
         .cards-container {
             padding: 0;
+
             .card {
                 margin: 15px;
+                max-width: 502px;
+
                 .card-title {
                     margin: 0;
                 }
@@ -52,6 +60,17 @@ main {
                         margin: 20px 0;
                     }
 
+                }
+            }
+
+            .card-prod {
+                .card-title {
+                    padding: 10px 15px;
+
+                    .title-md {
+                        font-size: 20px;
+                        line-height: 26px;
+                    }
                 }
             }
         }
